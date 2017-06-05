@@ -1,0 +1,46 @@
+ul li{
+    padding: 5px;
+}
+ul li:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.row{
+    margin: 20px;
+}
+#titleEdit{
+    width: 700px;
+    font-size: 20px;
+    font-family: fantasy;
+    font-style: italic;
+    background-color: rgba(80, 230, 70, 0.5);
+}
+#container{
+    width: 700px;
+    font-size: 15px;
+    font-family: cursive;
+    font-style: italic;
+    background-color: rgba(80, 230, 70, 0.5);
+}
+ul li button{
+    position: absolute;
+    right: 7px;
+}
+
+.container{
+    min-height: 600px;
+    background-color: rgba(20, 60, 200, 0.3);
+}
+
+.work{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.author{
+    font-size: 16px;
+    font-style: italic;
+    margin: 50px 0 0 840px;
+}

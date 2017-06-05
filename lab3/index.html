@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="work">Laboratory Work #3</div>
+        <div class="row">
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Выбрать запись...
+                    <span class="caret"></span>
+                </button>
+                <ul id="list-of-files" class="dropdown-menu" aria-labelledby="dropdownMenu1"></ul>
+            </div>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-success" onclick="create_()">New file</button>
+        </div>
+        <div class="row">
+            <label for="titleEdit"></label><input type="text" id="titleEdit" name="">
+        </div>
+        <div class="row">
+            <label for="bitch"></label><textarea name="rich" id="container" rows="10"></textarea>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-success" onclick="save()">Save</button>
+        </div>
+    <div class="author">@ Made by Viktoria Brykalova 03.05.2017</div>    
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
